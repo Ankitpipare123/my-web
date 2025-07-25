@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/bk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20%;
+
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar{
+  position: sticky;
+  top:0;
+}
+
+.nav-link {
+  color: hsl(64, 89%, 52%) !important;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color:orange;
+  border-radius: 2px;
+}
+
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  background: rgba(0, 0, 0, 0.4); 
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  animation: slideUp 1.5s ease forwards;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  animation: slideUp 2s ease forwards;
+}
+
+/* Slide-up effect */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+}
+
+.hero-section form input {
+  max-width: 400px;
+}
+
+.img-fluid{
+  transition:transform o.3s ease-in-out
+}
+
+.img-fluid:hover{
+  transform:scale(1.06)
+}
+
+
+
