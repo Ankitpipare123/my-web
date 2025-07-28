@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 20%;
+  height: 100%;
 
 }
 
@@ -27,17 +27,19 @@ body {
 .navbar{
   position: sticky;
   top:0;
+  background-color: rgb(14, 102, 102);
 }
 
 .nav-link {
-  color: hsl(64, 89%, 52%) !important;
+  color: hsl(60, 3%, 92%) !important;
   font-weight: 500;
   padding: 10px 15px;
 }
 
 .nav-link:hover {
   background-color:orange;
-  border-radius: 2px;
+  border-radius: 1px;
+  
 }
 
 
@@ -50,6 +52,7 @@ body {
   background: rgba(0, 0, 0, 0.4); 
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
   animation: fadeIn 2s ease-in-out;
+
 }
 
 .hero-section h1 {
