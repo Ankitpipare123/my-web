@@ -95,5 +95,26 @@ body {
   transform:scale(1.06)
 }
 
+.plans-container{
+  background-image: url(images/herobg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 25px;
+
+}
+
+.card {
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+  border-radius: 30px;
+}
+
+.card:hover {
+  background-color: rgb(232, 240, 11);
+  transform: translateY(-10px);
+}
+
+
+
 
 
