@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url('images/bk.jpg');
+  background-image: url('images/travel.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,13 +104,14 @@ body {
 
 }
 
-.card {
-  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+.card-p {
+  transition: transform 0.4s ease-out, box-shadow 0.8s ease-out;
   border-radius: 30px;
+  background-color: rgb(168, 188, 199);
 }
 
-.card:hover {
-  background-color: rgb(232, 240, 11);
+.card-p:hover {
+  background-color: rgb(244, 240, 13);
   transform: translateY(-10px);
 }
 
